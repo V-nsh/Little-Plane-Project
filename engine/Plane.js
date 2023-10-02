@@ -19,12 +19,36 @@ let planeColors = {
     },
     green: {
         // Define the color values for the green plane
+        outer: 'rgb(0, 128, 0)',
+        innerMain: 'rgb(0, 255, 0)',
+        innerHighlight: 'rgb(0, 192, 0)',
+        innerDarkHighlight: 'rgb(0, 64, 0)',
+        aroundWindshield: 'rgb(0, 51, 0)',
+        windshield: 'rgb(0, 0, 255)',
+        propeller: 'rgb(51, 51, 51)',
+        propellerBlades: 'rgb(179, 179, 179)'
     },
     blue: {
         // Define the color values for the blue plane
+        outer: 'rgb(0, 0, 128)',
+        innerMain: 'rgb(0, 0, 255)',
+        innerHighlight: 'rgb(0, 0, 192)',
+        innerDarkHighlight: 'rgb(0, 0, 64)',
+        aroundWindshield: 'rgb(0, 0, 51)',
+        windshield: 'rgb(0, 128, 192)',
+        propeller: 'rgb(51, 51, 51)',
+        propellerBlades: 'rgb(179, 179, 179)'
     },
     gray: {
         // Define the color values for the gray plane
+        outer: 'rgb(128, 128, 128)',
+        innerMain: 'rgb(192, 192, 192)',
+        innerHighlight: 'rgb(160, 160, 160)',
+        innerDarkHighlight: 'rgb(64, 64, 64)',
+        aroundWindshield: 'rgb(51, 51, 51)',
+        windshield: 'rgb(128, 128, 128)',
+        propeller: 'rgb(51, 51, 51)',
+        propellerBlades: 'rgb(179, 179, 179)'
     }
 };
 
